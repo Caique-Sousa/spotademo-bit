@@ -889,10 +889,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@bit/caique-sousa.components.button@^0.0.4":
-  version "0.0.4"
-  resolved "https://node.bit.dev/caique-sousa.components.button/-/caique-sousa.components.button-0.0.4.tgz#0d1a093545fa3592bd5c148103cc0e3a452554cd"
-  integrity sha1-DRoJNUX6NZK9XBSBA8wOOkUlVM0=
+"@bit/caique-sousa.components.button@0.0.5":
+  version "0.0.5"
+  resolved "https://node.bit.dev/caique-sousa.components.button/-/caique-sousa.components.button-0.0.5.tgz#23af325853a5ccd2d2082c923fc142044fc07238"
+  integrity sha1-I68yWFOlzNLSCCySP8FCBE/Acjg=
   dependencies:
     prop-types "15.7.2"
     react "^16.12.0"
