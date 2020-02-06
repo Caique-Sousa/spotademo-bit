@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Button from '@bit/caique-sousa.components.button';
+// import Button from '@bit/caique-sousa.components.button';
 
 import GithubIcon from '../../common/icons/GithubIcon';
 import GoogleSlideIcon from '../../common/icons/GoogleSlideIcon';
@@ -23,6 +23,50 @@ function App() {
         <br />
         <p>Links to:</p>
         <div className='app__link-wrapper'>
+          <a
+            href='https://docs.google.com/presentation/d/1IgxrLlhFbUy6K6RExsdzBN_RnagSnCR6TIbY0dbyRuk/edit?usp=sharing'
+            target='__blank'
+            className='app__link'
+          >
+            <GoogleSlideIcon />
+            Slide Presentation
+          </a>
+          <a
+            href='https://github.com/Caique-Sousa/spotademo-bit'
+            target='__blank'
+            className='app__link'
+          >
+            <GithubIcon />
+            spotademo-bit
+          </a>
+          <a
+            href='https://github.com/Caique-Sousa/spotademo-bit'
+            target='__blank'
+            className='app__link'
+          >
+            <GithubIcon />
+            spotademo-bit-live
+          </a>
+        </div>
+        <br />
+        <br />
+        <a
+          className='app__link'
+          href='https://spotahome.com'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          Get to know a little bit more about Spotahome
+        </a>
+      </div>
+    </div>
+  );
+}
+
+export default App;
+
+/**
+ 
           <Button
             redirectTo='https://docs.google.com/presentation/d/1IgxrLlhFbUy6K6RExsdzBN_RnagSnCR6TIbY0dbyRuk/edit?usp=sharing'
             openNewTab
@@ -44,20 +88,29 @@ function App() {
             <GithubIcon />
             spotademo-bit-live
           </Button>
-        </div>
-        <br />
-        <br />
-        <a
-          className='app__link'
-          href='https://spotahome.com'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Get to know a little bit more about Spotahome
-        </a>
-      </div>
-    </div>
-  );
-}
+          
+********************************
 
-export default App;
+          <a
+            href='https://docs.google.com/presentation/d/1IgxrLlhFbUy6K6RExsdzBN_RnagSnCR6TIbY0dbyRuk/edit?usp=sharing'
+            target="__blank"
+          >
+            <GoogleSlideIcon />
+            Slide Presentation
+          </a>
+          <a
+            href='https://github.com/Caique-Sousa/spotademo-bit'
+            target="__blank"
+          >
+            <GithubIcon />
+            spotademo-bit
+          </a>
+          <a
+            href='https://github.com/Caique-Sousa/spotademo-bit'
+            target="__blank"
+          >
+            <GithubIcon />
+            spotademo-bit-live
+          </a>
+
+ */
